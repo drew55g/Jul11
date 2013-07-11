@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+//int i = 0;
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIView *portrait;
+@property (strong, nonatomic) IBOutlet UIView *landscape;
+
+-(IBAction)switchViews:(id)sender;
+
 
 @end
